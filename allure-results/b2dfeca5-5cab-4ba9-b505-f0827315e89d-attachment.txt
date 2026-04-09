@@ -1,0 +1,31 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan
+⏱️ Request Time: 2026-04-09T12:28:16.422Z
+📤 Request Payload:
+{
+  "color_mode": "Color",
+  "auto_scan": true,
+  "page_size": "A4",
+  "page_orientation": "Portrait",
+  "dpi": 300,
+  "resolution": 300,
+  "file_format": "PDF"
+}
+✅ Status Code: 400
+📋 Response Headers: {
+  'access-control-allow-credentials': 'true',
+  'access-control-allow-origin': 'http://127.0.0.1',
+  'content-length': '146',
+  'content-type': 'application/json',
+  date: 'Thu, 09 Apr 2026 12:28:16 GMT',
+  server: 'waitress',
+  vary: 'Origin'
+}
+📝 Response Body:
+{
+  "error": "No scanner detected",
+  "hint": "Check USB cable and ensure scanner is powered ON.",
+  "message": "Please connect your scanner and try again."
+}
+✓ Test passed: Valid response received
+

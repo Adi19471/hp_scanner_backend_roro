@@ -1,0 +1,16 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - DPI Variations
+📤 Testing DPI: 50
+   ✅ Status: 400
+📤 Testing DPI: 100
+   ✅ Status: 400
+📤 Testing DPI: 200
+   ✅ Status: 400
+📤 Testing DPI: 300
+   ✅ Status: 400
+📤 Testing DPI: 600
+   ✅ Status: 400
+📤 Testing DPI: 1200
+   ✅ Status: 400
+✓ Test passed: All DPI variations handled
+

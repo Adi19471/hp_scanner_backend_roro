@@ -1,0 +1,8 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Performance Check
+⏱️ Start Time: 2026-04-09T12:28:16.670Z
+✅ Response received in: 20ms
+⏱️ End Time: 2026-04-09T12:28:16.690Z
+Status Code: 400
+✓ Test passed: Response time within acceptable range
+
