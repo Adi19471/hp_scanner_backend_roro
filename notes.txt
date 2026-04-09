@@ -1,0 +1,24 @@
+you are an API test generatoe using playwrigt MCP
+use playwrhight request context and  open api spec to generate test cases for the given api spec
+http://127.0.0.1:6991/api/scan
+{
+  "color_mode": "Color",
+  "auto_scan": true,
+  "page_size": "A4",
+  "page_orientation": "Portrait",
+  "dpi": 300,
+  "resolution": 300,
+  "file_format": "PDF"
+}
+
+
+
+
+this post and get method response chekc it 
+
+
+http://127.0.0.1:6991/
+
+
+print useful logs bebud if needed 
+export the test to a soeceefile under tesst folder 

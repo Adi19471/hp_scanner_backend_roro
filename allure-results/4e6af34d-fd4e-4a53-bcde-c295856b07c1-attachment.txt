@@ -1,0 +1,14 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - File Format Variations
+📤 Testing Format: PDF
+   ✅ Status: 400
+📤 Testing Format: JPEG
+   ✅ Status: 400
+📤 Testing Format: PNG
+   ✅ Status: 400
+📤 Testing Format: TIFF
+   ✅ Status: 400
+📤 Testing Format: BMP
+   ✅ Status: 400
+✓ Test passed: All file formats handled
+

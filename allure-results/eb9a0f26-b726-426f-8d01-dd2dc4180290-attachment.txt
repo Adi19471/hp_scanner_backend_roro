@@ -1,0 +1,12 @@
+
+📍 TEST: GET http://127.0.0.1:6991/ - Header Validation
+✅ Response Headers Received:
+   access-control-allow-credentials: true
+   access-control-allow-origin: http://127.0.0.1
+   content-length: 79
+   content-type: text/html; charset=utf-8
+   date: Thu, 09 Apr 2026 10:07:26 GMT
+   server: waitress
+   vary: Origin
+✓ Test passed: Required headers present
+

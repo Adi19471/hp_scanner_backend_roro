@@ -1,0 +1,17 @@
+
+📍 TEST: GET http://127.0.0.1:6991/
+⏱️ Request Time: 2026-04-09T10:07:26.923Z
+✅ Status Code: 200
+📋 Response Headers: {
+  'access-control-allow-credentials': 'true',
+  'access-control-allow-origin': 'http://127.0.0.1',
+  'content-length': '79',
+  'content-type': 'text/html; charset=utf-8',
+  date: 'Thu, 09 Apr 2026 10:07:26 GMT',
+  server: 'waitress',
+  vary: 'Origin'
+}
+📝 Response Body:
+<h1>INFYZ Scanner API infyz_v7_2026 is Running ✅</h1><p>POST to /api/scan</p>...
+✓ Test passed: Server is responsive
+

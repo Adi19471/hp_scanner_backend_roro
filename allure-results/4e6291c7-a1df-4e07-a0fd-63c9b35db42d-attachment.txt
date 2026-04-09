@@ -1,0 +1,10 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Color Mode Validation
+📤 Testing Color Mode: Color
+   ✅ Status: 400
+📤 Testing Color Mode: Grayscale
+   ✅ Status: 400
+📤 Testing Color Mode: BlackAndWhite
+   ✅ Status: 400
+✓ Test passed: All color modes handled
+

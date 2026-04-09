@@ -1,0 +1,15 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Field Validation
+📤 Request Payload (Incomplete):
+{
+  "color_mode": "Color"
+}
+✅ Status Code: 400
+📝 Response Body:
+{
+  "error": "Scanner connection failed",
+  "hint": "Make sure scanner is turned on and properly connected via USB.",
+  "message": "Could not connect to scanner."
+}
+✓ Test passed: Server validated request appropriately
+

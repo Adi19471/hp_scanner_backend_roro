@@ -1,0 +1,14 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Field Validation
+📤 Request Payload (Incomplete):
+{
+  "color_mode": "Color"
+}
+✅ Status Code: 400
+📝 Response Body:
+{
+  "error": "Scan failed",
+  "message": "Scanner failed to scan. Check paper and connection."
+}
+✓ Test passed: Server validated request appropriately
+

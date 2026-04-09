@@ -1,0 +1,5 @@
+
+📍 TEST: Connection Error Handling
+✅ Connection error caught as expected
+✓ Test passed: Error handling works
+

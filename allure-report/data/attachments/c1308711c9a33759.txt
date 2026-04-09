@@ -1,0 +1,6 @@
+
+📍 TEST: Malformed JSON Handling
+📤 Sending malformed JSON to POST endpoint
+✅ Status Code: 500
+✓ Test passed: Malformed JSON handled
+

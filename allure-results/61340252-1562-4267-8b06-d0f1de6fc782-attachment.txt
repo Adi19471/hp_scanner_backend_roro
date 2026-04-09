@@ -1,0 +1,31 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan
+⏱️ Request Time: 2026-04-09T10:07:28.796Z
+📤 Request Payload:
+{
+  "color_mode": "Color",
+  "auto_scan": true,
+  "page_size": "A4",
+  "page_orientation": "Portrait",
+  "dpi": 300,
+  "resolution": 300,
+  "file_format": "PDF"
+}
+✅ Status Code: 400
+📋 Response Headers: {
+  'access-control-allow-credentials': 'true',
+  'access-control-allow-origin': 'http://127.0.0.1',
+  'content-length': '155',
+  'content-type': 'application/json',
+  date: 'Thu, 09 Apr 2026 10:07:28 GMT',
+  server: 'waitress',
+  vary: 'Origin'
+}
+📝 Response Body:
+{
+  "error": "No paper detected",
+  "hint": "Make sure paper is properly placed in the ADF tray.",
+  "message": "Please load document/paper into the scanner feeder."
+}
+✓ Test passed: Valid response received
+

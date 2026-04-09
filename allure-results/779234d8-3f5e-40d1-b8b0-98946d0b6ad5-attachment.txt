@@ -1,0 +1,14 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Page Size Variations
+📤 Testing Page Size: A3
+   ✅ Status: 400
+📤 Testing Page Size: A4
+   ✅ Status: 400
+📤 Testing Page Size: A5
+   ✅ Status: 400
+📤 Testing Page Size: Letter
+   ✅ Status: 400
+📤 Testing Page Size: Legal
+   ✅ Status: 400
+✓ Test passed: All page sizes handled
+

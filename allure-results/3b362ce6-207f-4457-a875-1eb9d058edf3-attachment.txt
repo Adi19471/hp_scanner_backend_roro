@@ -1,0 +1,19 @@
+
+📍 TEST: POST http://127.0.0.1:6991/api/scan - Invalid Values
+📤 Request Payload (Invalid):
+{
+  "color_mode": "InvalidColor",
+  "auto_scan": "not_a_boolean",
+  "page_size": "Invalid",
+  "page_orientation": "Invalid",
+  "dpi": -100,
+  "resolution": "invalid",
+  "file_format": "INVALID"
+}
+✅ Status Code: 400
+📝 Response Body:
+{
+  "error": "Invalid DPI. Supported: [75, 150, 200, 240, 300, 400, 500, 600]"
+}
+✓ Test passed: Invalid data handled appropriately
+
